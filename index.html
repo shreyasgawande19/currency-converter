@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form>
+            <div class="amount">
+                <p>Enter amount:</p>
+                <input type="number" id="amount" placeholder="Amount" required>
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From:</p>
+                    <select id="fromCurrency" required>
+                        <option value="">Select Currency</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                        <option value=""></option>
+                    </select>
+                </div>
+            </div>
+        </form>
+</body>
+
+</html>
